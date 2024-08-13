@@ -57,7 +57,7 @@ document.addEventListener('keydown', (e) => {
         player.dx = 5;
     } else if (e.code === 'ArrowLeft') {
         player.dx = -5;
-    } else if (e.code === 'Space' && player.dy === 0) {
+    } else if (e.code === 'ArrowUp' && player.dy === 0) {
         player.dy = -10;
     }
 });
